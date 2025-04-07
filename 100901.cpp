@@ -12,6 +12,7 @@ int maxProfit(vector<int>& prices, int fee) {
 int main(){
 	vector<int>prices={1, 3, 2, 8, 4, 9};
 	int fee=2;
+	int totl=1;
 	int ans=maxProfit(prices,fee);
 	cout<<ans<<endl;
 	return 0;
